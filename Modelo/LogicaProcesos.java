@@ -46,16 +46,16 @@ public class LogicaProcesos implements MENSAJES{
     private final HashMap<String,String[]> respuestaProcesos;
     private final String[] mensajesInternos;
     public static int TIEMPO_INTERVALO_ESTABLECIDO_MIN=120;//2 HORAS
-    public static int TIEMPO_AGREGADO_INTERVALO_TRABAJADOR_MIN=4;
-    public static int TIEMPO_AGREGADO_INTERVALO_VARIABLES_MIN=1;
-    public static int TIEMPO_AGREGADO_INTERVALO_PROVEEDOR_MIN=2;
+    public static int TIEMPO_AGREGADO_INTERVALO_TRABAJADOR_MIN=15;
+    public static int TIEMPO_AGREGADO_INTERVALO_VARIABLES_MIN=5;
+    public static int TIEMPO_AGREGADO_INTERVALO_PROVEEDOR_MIN=10;
     
     public static int TIEMPO_AGREGADO_INTERVALO_VARIABLES_ERROR_MYSQL_MIN=0;
     public static int TIEMPO_AGREGADO_INTERVALO_PROVEEDOR_ERROR_MYSQL_MIN=0;
     
-    public static final int TIEMPO_RETRASO_INICIO_TRABAJADOR_MIN=4;
-    public static final int TIEMPO_RETRASO_INICIO_VARIABLES_MIN=1;
-    public static final int TIEMPO_RETRASO_INICIO_PROVEEDOR_MIN=2;
+    public static final int TIEMPO_RETRASO_INICIO_TRABAJADOR_MIN=15;
+    public static final int TIEMPO_RETRASO_INICIO_VARIABLES_MIN=5;
+    public static final int TIEMPO_RETRASO_INICIO_PROVEEDOR_MIN=10;
     
     private volatile boolean estadoProcesoTrabajador;
     private volatile boolean estadoProcesoVariables;
